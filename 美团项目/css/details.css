@@ -36,6 +36,7 @@ body {
     width: 16rem;
     line-height: 1rem;
     float: left;
+    text-align: center;
 }
 
 .header-collect {
@@ -429,4 +430,34 @@ body {
 
 .details-note-main{
     padding: 0.28rem 0.2rem;
+}
+
+.details-note-main-title1{
+    color: #FF9900;
+    font-size: 0.3rem;
+}
+
+.details-note-main-title1-ul{
+    padding-bottom: 0.26rem;
+}
+
+.details-note-main-title1-li{
+    font-size: 0.3rem;
+    padding-top: 0.2rem;
+    padding-left: 0.16rem;
+}
+
+.details-note-main-title2{
+    color: #FF9900;
+    font-size: 0.3rem;
+}
+
+.details-note-main-title2-ul{
+    font-size: 0.3rem;
+    padding-top: 0.2rem;
+    padding-left: 0.16rem;
+}
+
+.details-note-main-title2-li{
+    margin-left:0.4rem; 
 }
