@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    background:#f0efed;
+}
+.header{
+    height: 1.01rem;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+    display: flex;
+    color: #ffffff;
+}
+.city{
+    width: 1.67rem;
+    line-height: 1.01rem;
+    text-align: center;
+}
+.search{
+    height: 0.64rem;
+    width: 4.854rem;
+    font-size: 13px;
+    line-height: 0.64rem;
+    margin-top: 0.2rem;
+    background: #21897d;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.search-a{
+    text-decoration: none;
+}
+.mine{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: .2rem;
+}
+.mine span{
+    width: 100%;
+}
+.mine .icon-wode{
+    margin-top: 0.1rem;
+    font-size: 0.5rem;
+}
+.meituan-ad{
+    width: 100%;
+    height: 2.221rem;
+    border-bottom: 1px solid #e6dede;
+    background: #ffffff;
+    display: block;
+}
+.list-kind{
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #e6dede;
+    background: #ffffff;
+}
+.list-li{
+    /* border: 1px solid #ff0036; */
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+.list-li span{
+    width: 100%;
+    font-size: 0.24rem;
+    display: block;
+}
+.list-li .iconfont{
+    width: 100%;
+    font-size: 0.8rem;
+}
+.list-like{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #e6dede;
+    background: #ffffff;
+}
+.list-like-li{ 
+    width: 7.1rem;
+    height: 2.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #aaaaaa;
+}
+.head{
+    line-height: 0.8rem;
+    height: 0.8rem;
+}
+.end{
+    line-height: 0.8rem;
+    height: 0.8rem;
+    color: #06c1ae;
+    position: relative;
+}
+.end .iconfont{
+    position: absolute;
+    right: 0;
+    font-size: 0.4rem;
+    font-weight: 600;
+}
+.list-like-image{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: 0.15rem;
+    margin-right: 0.2rem;
+}
+.list-like-txt{
+    margin-top: 0.15rem;
+    flex: 1;
+    height: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    justify-content: left;
+}
+.list-like-name{
+    padding-top: .1rem;
+    margin-bottom: .12rem;
+    font-size: 0.3rem;
+    font-weight: 400;
+    height: 0.3rem;
+}
+.list-like-ad{
+    font-size: 0.24rem;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    margin-bottom: 0.16rem;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-like-price{
+    width: 5.1rem;
+    position: relative;
+}
+.list-like-price-a{
+    font-size: 0.38rem;
+    color: #06c1ae;
+}
+.list-like-price-yuan{
+    font-size: 0.26rem;
+    color: #06c1ae;
+}
+.list-like-price-true{
+    
+    color: #666;
+    font-size: 0.24rem;
+}
+.list-like-price-num{
+    color: #666;
+    font-size: 0.24rem;
+    position: absolute;
+    top: .04rem;
+    right: 0;
+}
