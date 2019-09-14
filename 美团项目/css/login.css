@@ -1,0 +1,177 @@
+html {
+    font-size: 50px;
+    background-color: #f0efed;
+}
+
+.header {
+    
+    height: 1.01rem;
+    background: #06c1ae;
+}
+
+.icon-fanhui1-copy {
+    font-size: 0.36rem;
+    line-height: 1.01rem;
+
+
+}
+
+.icon-caidan {
+    font-size: 0.54rem !important;
+    line-height: 1.01rem ;
+
+}
+
+.header-back {
+    width: 0.8rem;
+    float: left;
+    text-align: center;
+
+
+}
+
+.header-meituan {
+    display: inline-block;
+    line-height: 1.01rem;
+    width: 5.69rem;
+    text-align: center;
+
+}
+
+.header-menu {
+    width: 1.01rem;
+    float: right;
+
+
+    text-align: center;
+}
+
+ 
+
+.tab {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 0.73rem;
+    border-bottom: .08rem solid #DDD8CE;
+    font-size:0;
+    text-align: center;
+    line-height: 0.73rem;
+}
+
+.tab-user {
+
+    font-size: 0.25rem;
+    display: inline-block;
+    width: 48%;
+    border-bottom: .06rem solid #FFBD00;
+}
+
+.tab-phone {
+   
+    font-size: 0.25rem;
+    display: inline-block;
+    width: 48%;
+    border-bottom: .06rem solid #DDD8CE;
+}
+
+
+.login-form {
+    background-color: white;
+
+}
+
+.input-user {
+
+    font-size: .3rem;
+    width: 100%;
+    height: 0.87rem;
+    border: 0;
+    position: relative;
+    left: 0.3rem;
+    border-bottom: .01rem solid #DDD8CE;
+}
+
+.input-password {
+    font-size: .3rem;
+
+    width: 100%;
+    height: 0.87rem;
+    border: 0;
+    position: relative;
+    left: 0.3rem;
+}
+
+.login-form2 {
+    display: none;
+    background-color: white;
+
+}
+
+.input-user2 {
+
+    font-size: .3rem;
+    width: 70%;
+    height: 0.87rem;
+    border: 0;
+    position: relative;
+    left: 0.3rem;
+    border-bottom: .01rem solid #DDD8CE;
+}
+.getnumber{
+    
+    margin: 0.15rem;
+    color: #999999;
+    border: 0;
+    width: 1.8rem;
+    height: 0.6rem;
+    border-radius: 4px;
+    
+}
+.numberbutton{
+    float: right;
+    border-bottom: .01rem solid #DDD8CE;
+}
+.input-password2 {
+    font-size: .3rem;
+
+    width: 100%;
+    height: 0.87rem;
+    border: 0;
+    position: relative;
+    left: 0.3rem;
+}
+
+
+
+
+
+
+
+.login-button {
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 3%;
+    border: 0;
+    background-color: #FFBD00;
+    font-size: .36rem;
+    width: 94%;
+    height: 0.86rem;
+
+}
+
+.registe {
+    padding: 0.2rem;
+    font-size: 0.26rem;
+    color: #FEBC00;
+
+
+    float: left;
+}
+
+.pull-password {
+    padding: 0.2rem;
+    font-size: 0.26rem;
+    color: #FEBC00;
+    float: right;
+}

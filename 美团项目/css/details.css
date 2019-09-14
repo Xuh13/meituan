@@ -3,29 +3,30 @@
     padding: 0;
 }
 
+html {
+    font-size: 50px;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.28rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #333;
     background-color: #f0f0f0;
-    min-height: 100%;
-    overflow: hidden;
-    text-align: center;
 }
 
 .header {
-    height: 3rem;
+    height: 1.02rem;
     background: #06c1ae;
     border-bottom: 1px solid #21897d;
     display: flex;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 0.36rem;
 }
 
 .header-back {
-    line-height: 3rem;
-    font-size: 1.326rem !important;
+    line-height: 1rem;
+    font-size: 0.36rem !important;
     width: 1.55rem;
     padding: 0 0.3rem;
     float: left;
@@ -33,27 +34,28 @@ body {
 
 .header-title {
     width: 16rem;
-    line-height: 3rem;
-    font-size: 1.08rem;
+    line-height: 1rem;
     float: left;
 }
 
 .header-collect {
     width: 2.65rem;
-    line-height: 3rem;
-    font-size: 1.215rem !important;
+    line-height: 1rem;
     float: left;
+}
+
+.icon-shoucang1 {
+    font-size: 0.48rem;
 }
 
 .header-menu {
     width: 2.65rem;
-    line-height: 3rem;
-    font-size: 1.215rem !important;
+    line-height: 1rem;
 }
 
 .details-main {
     position: relative;
-    height: 23.45rem;
+    height: 7.5rem;
 }
 
 .details-main-ad {
@@ -74,9 +76,9 @@ body {
 
 .details-main-txt {
     position: absolute;
-    top: 15.78rem;
+    top: 3.4rem;
     width: 100%;
-    height: 7.67rem;
+    height: 2.45rem;
     color: #ffffff;
     text-align: left;
     text-shadow: 1px 1px 1px #000;
@@ -84,9 +86,8 @@ body {
 
 .details-main-txt::after {
     content: '';
-    height: 7.67rem;
+    height: 2.45rem;
     position: absolute;
-    bottom: 5.162rem;
     left: 0;
     right: 0;
     z-index: -1;
@@ -94,110 +95,338 @@ body {
 }
 
 .details-main-txt-title {
-    font-size: 1.3rem;
-    line-height: 2.6rem;
-    height: 2.6rem;
+    font-size: 0.38rem;
+    line-height: 1.5;
     width: 100%;
     position: absolute;
-    left: 0.8rem;
-    bottom: 6.862rem;
+    left: 0.256rem;
+    top: 1rem;
 }
 
 .details-main-txt-type {
-    font-size: 1.0rem;
-    line-height: 2.6rem;
-    height: 2.6rem;
+    line-height: 1.5;
     width: 100%;
     position: absolute;
-    left: 0.8rem;
-    bottom: 4.862rem;
+    left: 0.256rem;
+    top: 1.65rem;
 }
 
 .details-main-price {
     width: 100%;
-    height: 4.75rem;
+    height: 1.52rem;
     background: #fff;
     z-index: 1;
     position: absolute;
-    top: 18.22rem;
+    top: 5.83rem;
     border-bottom: 1px solid #ddd8ce;
-    padding: 0.675rem 0.6rem 0.675rem 0.6rem;
+    padding: 0.216rem 0.192rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .details-main-price-now {
     color: #06c1ae;
-    font-size: 2.27rem;
+    font-size: 0.726rem;
     font-weight: 600;
     float: left;
 }
 
 .details-main-price-now-yuan {
-    font-size: 0.9rem;
+    font-size: 0.288rem;
     font-weight: normal;
 }
 
 .details-main-price-before {
     color: #999;
-    font-size: 0.9rem;
+    font-size: 0.288rem;
     float: left;
+    letter-spacing: -0.02rem;
+    padding-top: .48rem;
 }
 
 .details-main-price-btn {
-    width: 8.125rem;
-    height: 2.5rem;
+    width: 2.6rem;
+    height: 0.8rem;
     text-align: center;
-    font-size: 1.3rem;
-    border-radius: .26rem;
+    line-height: 0.8rem;
+    font-size: 0.416rem;
+    border-radius: 0.083rem;
     background-color: #f90;
     color: #fff;
     float: right;
 }
 
-.details-main-tag{
+.details-main-tag {
     background: #ffffff;
     color: #6bbd00;
-    margin-bottom: 0.5rem;
-    height: 6rem;
+    padding: 0.28rem 0.2rem;
+    margin-bottom: 0.16rem;
+    height: 1.3rem;
     list-style-type: none;
 }
 
-.details-main-tag li{
-    line-height: 2.5rem;
-    padding: 0 0.5rem;
-    display: inline;
+.details-main-tag li {
+    line-height: 0.65rem;
 }
 
-.details-main-tag-3rd{
-    color: #666;
-    display: block !important;
+.details-main-tag-1st {
     float: left;
-    margin-left: 2.7rem; 
 }
 
-.details-evaluate{
+.details-main-tag-2nd {
+    float: right;
+    padding-right: 1rem;
+}
+
+.details-main-tag-3rd {
+    float: left;
+    text-align: left;
+    color: #666;
+}
+
+.details-evaluate {
     background: #ffffff;
     border-bottom: 1px solid #ddd8ce;
 }
 
-.details-evaluate-score{
+.details-evaluate-score {
     color: #f90;
-    font-size: 0.9rem;
+    font-size: 0.288rem;
     font-weight: 600;
     text-align: left;
-    padding: 0.5rem 0 0.5rem 0.6rem;
+    padding: 0.16rem 0 0.16rem 0.192rem;
 }
 
-.details-evaluate-score-pingjia{
-    margin-left: 9rem;
+.details-evaluate-score-pingjia {
+    margin-left: 2.88rem;
 }
 
-.icon-iconfontyoujiantou-copy-copy-copy-copy,.details-evaluate-score-pingjia{
+.icon-iconfontyoujiantou-copy-copy-copy-copy,
+.details-evaluate-score-pingjia {
     color: #999;
     font-weight: 500;
 }
 
-.details-tag{
-    background: #ffffff;
+.details-tag {
+    padding: 0.22rem 0.2rem 0.19rem 0.2rem;
+    border-top: 1px solid #ddd8ce;
+    background: #fff;
+    text-align: left;
+}
+
+.details-tag-txt {
+    display: inline-block;
+    font-size: .28rem;
+    border-radius: .06rem;
+    margin-bottom: 0.14rem;
+    margin-right: 0.1rem;
+    border: 0.02rem solid #FDB338;
+    color: #FDB338;
+    height: 0.62rem;
+    line-height: .62rem;
+    padding: 0 0.11rem;
+    box-sizing: border-box;
+}
+
+.details-tag-txt-bad {
+    height: .62rem;
+    padding: 0 .11rem;
+    margin-bottom: 0.14rem;
+    margin-right: 0.1rem;
+    line-height: .62rem;
+    border: .02rem solid #ACACAC;
+    color: #999;
+}
+
+.details-information {
+    border-top: 1px solid #ddd8ce;
+    border-bottom: 1px solid #ddd8ce;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.details-information-title {
+    border-bottom: 1px solid #ddd8ce;
+    font-size: 0.34rem;
+    line-height: 1.5;
+    padding: 0.22rem 0.2rem 0.14rem 0.2rem;
+    color: #333;
+    background-color: #fff;
+}
+
+.details-information-main{
+    padding: 0.28rem 0.2rem;
+    text-align: left;
+}
+
+.details-information-main-box{
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.details-information-main-box1{
+    flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.details-information-main-box-name{
+    margin-top: 0;
+    margin-bottom: 0.06rem;
+    font-size: 0.32rem;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.details-information-main-box-position{
+    padding-right: 0.2rem;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.details-information-main-box-dist{
+    margin-top: 0.14rem;
+    line-height: 1.1;
+    color: #666;
+}
+
+.details-information-main-box-dist-txt{
+    color: #eb8706;
+}
+
+.details-information-main-box2{
+    width: 1.4rem;
+    text-align: center;
+    border-left: 1px solid #ddd8ce;
+    font-size: 0.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #06c1ae;
+}
+
+.icon-dianhua{
+    font-size: 0.5rem!important;
+}
+
+.details-set{
+    border-top: 1px solid #ddd8ce;
+    border-bottom: 1px solid #ddd8ce;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    font-size: 0.3rem;
+}
+
+.details-set-title{
+    border-bottom: 1px solid #ddd8ce;
+    font-size: 0.34rem;
+    line-height: 1.5;
+    padding: 0.22rem 0.2rem 0.14rem 0.2rem;
+    color: #333;
+}
+
+.details-set-menu-item{
+    margin-left: 0;
+    padding-left: 0.2rem;
+    display: -webkit-box;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0.3rem;
+    border-bottom: 1px solid #ddd8ce;
+    line-height: 1.41;
+}
+
+.details-set-menu-item-left{
+    flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    display: block;
+    padding: 0.22rem 0;
+    padding-right: 0.2rem;
+}
+
+.details-set-menu-item-middle{
+    display: -webkit-box;
+    -webkit-box-align: center;
+    width: 1.7rem;
+    padding: 0.22rem 0.2rem;
+    border-left: 1px solid #ccc;
+}
+
+.details-set-menu-item-right{
+    display: -webkit-box;
+    -webkit-box-align: center;
+    width: 1.2rem;
+    padding: 0.22rem 0.2rem;
+    border-left: 1px solid #ccc;
+}
+
+.details-set-menu-head{
+    margin-left: 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd8ce;
+    line-height: 1.41;
+    background-color: #f8f9fa;
+    padding: 0.1rem;
+    margin: 0;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+.details-set-menu-remarks{
+    position: relative;
+    padding: 0.28rem 0.2rem;
+    margin: 0;
+    border-bottom: 1px solid #ddd8ce;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.details-set-menu-remarks-li{
+    list-style-type: disc;
+    margin-left: 0.4rem;
+}
+
+.details-set-more{
+    display: block;
+    color: #06c1ae;
+    padding: 0 0.2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+}
+
+.details-set-more-txt{
+    position: relative;
+    padding-right: 0.3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+    
+.icon-iconfontyoujiantou-copy{
+    float: right;
+}
+
+.details-note{
+    border-top: 1px solid #ddd8ce;
+    border-bottom: 1px solid #ddd8ce;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.details-note-title{
+    border-bottom: 1px solid #ddd8ce;
+    font-size: 0.34rem;
+    line-height: 1.5;
+    padding: 0.22rem 0.2rem 0.14rem 0.2rem;
+    color: #333;
+}
+
+.details-note-main{
+    padding: 0.28rem 0.2rem;
 }
