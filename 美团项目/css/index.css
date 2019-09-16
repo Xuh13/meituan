@@ -38,6 +38,8 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     font-size: .2rem;
+    text-decoration:none;
+    color: #ffffff;
 }
 .mine span{
     width: 100%;
@@ -126,6 +128,7 @@ body{
     text-overflow: ellipsis;
     overflow: hidden;
     justify-content: left;
+    text-decoration: none;
 }
 .list-like-name{
     padding-top: .1rem;
@@ -133,6 +136,7 @@ body{
     font-size: 0.3rem;
     font-weight: 400;
     height: 0.3rem;
+    color: #333;
 }
 .list-like-ad{
     font-size: 0.24rem;
