@@ -1,0 +1,129 @@
+html {
+    font-size: 50px;
+    background-color: #f0efed;
+}
+
+.header {
+    height: 1.01rem;
+    background: #06c1ae;
+}
+
+.icon-fanhui1-copy {
+    font-size: 0.36rem;
+    line-height: 1.01rem;
+}
+
+.icon-caidan {
+    font-size: 0.54rem !important;
+    line-height: 1.01rem ;
+}
+
+.header-back {
+    width: 0.8rem;
+    float: left;
+    text-align: center;
+}
+
+.header-meituan {
+    display: inline-block;
+    line-height: 1.01rem;
+    width: 5.69rem;
+    text-align: center;
+}
+
+.header-menu {
+    width: 1.01rem;
+    float: right;
+    text-align: center;
+}
+
+.logon-head{
+    background-color: white;
+    width: 100%;
+    height: 0.87rem;
+    text-align: center;
+}
+
+.logon-head-phone{
+    color: #222;
+    line-height:0.87rem;
+    font-size: .25rem;
+}
+
+.logon-head-code{
+    color: #999999;
+    line-height:0.87rem;
+    font-size: .25rem;
+}
+
+
+.logon-head-setpwd{
+    color: #999999;
+    line-height:0.87rem;
+    font-size: .25rem;
+}
+
+
+.logon-InputPhoneNumber{
+    width: 100%;
+    height: 0.8rem;
+    float: left;
+    margin-top: 0.25rem;
+    border: none;
+}
+
+.logon-InputPhoneNumber2{
+    width: 100%;
+    height: 0.8rem;
+    float: left;
+    margin-top: 0.25rem;
+    border: none;
+    display: none;
+}
+
+
+.checkbox{
+    position: relative;
+    left: .2rem;
+    top: .6rem;
+    width: 0.45rem;
+    height: 0.45rem;
+}
+
+.i_have_read{
+    position: relative;
+    top: .15rem;
+    left: 0.8rem;
+    font-size: .28em;
+}
+
+.meituan_xieyi{
+    color: #FE8C00;
+}
+
+.logon-button{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 3%;
+    border: 0;
+    background-color: #999999;
+    font-size: .36rem;
+    width: 94%;
+    height: 0.86rem;
+}
+
+.registe2 {
+    padding: 0.2rem;
+    font-size: 0.26rem;
+    color: #FEBC00;
+    float: left;
+    display: none;
+}
+
+.pull-password2 {
+    padding: 0.2rem;
+    font-size: 0.26rem;
+    color: #FEBC00;
+    float: right;
+    display: none;
+}

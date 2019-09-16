@@ -3,8 +3,12 @@ var tab2 = document.getElementById("tab2");
 var tab1Content = document.getElementById("tab1-content");
 var tab2Content = document.getElementById("tab2-content");
 
+var logonNow = document.getElementById("logonNow");
+var header_text = document.getElementsByClassName("header-meituan");
+var login =document.getElementById("login");
 
-function change(bool) {
+
+function change(bool) {  //改变登陆方式
     if (bool == 1) {
         tab1.style.borderBottomColor = "#FFBD00";
         tab2.style.borderBottomColor = "#DDD8CE";
