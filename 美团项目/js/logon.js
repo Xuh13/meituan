@@ -1,7 +1,9 @@
 var page = 1;
 
-
 function jumppage() {
+    if(page == 3){
+        window.location.href = "../index.html"
+    }
     if (page == 2) {
         document.getElementsByClassName("logon-head-setpwd")[0].style.color = "#222";
         document.getElementsByClassName("logon-InputPhoneNumber")[0].placeholder = "    请输入密码";
@@ -11,7 +13,6 @@ function jumppage() {
         document.getElementsByClassName("pull-password2")[0].style.display = "none";
         page=3;
     }
-
     if (page == 1) {
         document.getElementsByClassName("logon-head-code")[0].style.color = "black";
         document.getElementsByClassName("logon-InputPhoneNumber")[0].placeholder = "    请输入短信中的验证码";
@@ -23,5 +24,4 @@ function jumppage() {
         document.getElementsByClassName("pull-password2")[0].style.display = "block";
         page = 2;
     }
-
 }
