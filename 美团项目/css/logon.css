@@ -11,6 +11,8 @@ html {
 .icon-fanhui1-copy {
     font-size: 0.36rem;
     line-height: 1.01rem;
+    color: #000000;
+    text-decoration: none;
 }
 
 .icon-caidan {

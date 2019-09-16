@@ -24,6 +24,10 @@ html {
     text-align: center;
 }
 
+.icon-fanhui1-copy{
+    color: #000000;
+}
+
 .header-meituan {
     display: inline-block;
     line-height: 1.01rem;
