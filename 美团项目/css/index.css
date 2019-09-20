@@ -18,6 +18,9 @@ body{
     line-height: 1.01rem;
     text-align: center;
 }
+.city-a{
+    color: #ffffff;
+}
 .search{
     height: 0.64rem;
     width: 4.854rem;

@@ -29,10 +29,11 @@
     font-weight: 400;
     text-align: center;
     line-height: 1rem;
+    margin-right: 0.85rem;
 }
 
 .header-icon {
-    width: 1.7rem;
+    width: 0.85rem;
     height: 1rem;
     line-height: 1rem;
     display: inline-block;
@@ -48,137 +49,12 @@
     font-size: 0.36rem !important;
 }
 
-.wrapper {
-    overflow: hidden;
-    padding: 0 .2rem;
+.meituan-ad{
+    width: 100%;
 }
 
-.wrapper-box {
-    margin-top: .2rem;
-    margin-bottom: .4rem;
-    padding: .28rem .2rem;
-    border: 1px solid #DDD8CE;
-    border-radius: .06rem;
-    overflow: hidden;
-    background-color: #FDFDFC;
-    font-size: 0.28rem;
-}
 
-.nopadding {
-    padding: 0;
-}
 
-.icon-weizhi {
-    color: #FFC400;
-}
-
-.wrapper-h4 {
-    font-size: 0.3rem;
-    margin-top: .14rem;
-    margin-bottom: .14rem;
-    font-weight: 500;
-    line-height: 1.1;
-}
-
-.wrapper-box-ul {
-    min-height: .8rem;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-}
-
-.wrapper-box-ul h4 {
-    margin: 0;
-    margin-bottom: -1px;
-    height: 1.6rem;
-    line-height: 1.6rem;
-    color: #B7B7B7;
-    font-size: .8rem;
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-    border-bottom: 1px solid #ddd8ce;
-    float: left;
-    position: relative;
-    z-index: 10;
-}
-
-.wrapper-box-ul::before {
-    content: '';
-    position: absolute;
-    width: 25%;
-    left: 25%;
-    height: 100%;
-    border-left: 1px solid #ddd8ce;
-    border-right: 1px solid #ddd8ce;
-}
-
-.wrapper-box-ul::after {
-    content: '';
-    position: absolute;
-    width: 10%;
-    left: 75%;
-    height: 100%;
-    border-left: 1px solid #ddd8ce;
-    border-right: none;
-}
-
-.wrapper-box-li {
-    display: inline-block;
-    width: 25%;
-    height: .8rem;
-    line-height: .8rem;
-    font-size: .28rem;
-    text-align: center;
-    border-bottom: 1px solid #ddd8ce;
-    margin-bottom: -1px;
-    float: left;
-    position: relative;
-    z-index: 10;
-}
-
-.wrapper-first-li {
-    display: inline-block;
-    width: 20%;
-    height: .8rem;
-    text-align: center;
-    line-height: .8rem;
-    font-size: .28rem;
-    float: left;
-    color: #FE8C00;
-}
-
-.wrapper-box-ul-noborder {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    overflow: hidden;
-}
-
-.nobottom {
-    margin-bottom: 0;
-}
-
-.abc {
-    border-top: 1px solid #ddd8ce;
-    border-bottom: 1px solid #ddd8ce;
-    clear: both;
-    background-color: #FDFDFC;
-}
-
-.abc-li{
-    display: inline-block;
-    width: 25%;
-    height: .8rem;
-    line-height: .8rem;
-    font-size: .28rem;
-    text-align: center;
-    border-bottom: 1px solid #ddd8ce;
-    margin-bottom: -1px;
-    float: left;
-    position: relative;
-    z-index: 10;
-}
 
 .footer{
     margin-top: .3rem;
